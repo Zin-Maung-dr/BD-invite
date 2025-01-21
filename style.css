@@ -1,0 +1,52 @@
+
+  h1 {
+    font-size: 2rem;
+    color: blue
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: green
+  }
+
+  .Hd2 {
+    font-size: 1.3rem;
+    color: black;
+  }
+
+  p{
+    font-size: 1.2rem;
+    font-style: bold;
+    color: red;
+  }
+  
+  .poster {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+  }
+  
+  .CaiFeiimg {
+    border: 5px solid white;
+    width: 100%;
+  }
+
+  body {
+    background: linear-gradient(300deg, cyan, pink, yellow);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
